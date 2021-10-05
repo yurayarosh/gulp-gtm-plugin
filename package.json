@@ -1,0 +1,18 @@
+{
+  "name": "gulp-gtm-plugin",
+  "version": "1.0.0",
+  "description": "Add Google Tag Manager support to your web project.",
+  "main": "index.js",
+  "author": "yurayarosh <yura12323@gmail.com>",
+  "license": "MIT",
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "common-tags": "^1.8.0"
+  }
+}
