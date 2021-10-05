@@ -1,10 +1,24 @@
 {
   "name": "gulp-gtm-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add Google Tag Manager support to your web project.",
   "main": "index.js",
   "author": "yurayarosh <yura12323@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/yurayarosh/gulp-gtm-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yurayarosh/gulp-gtm-plugin"
+  },
+  "keywords": [
+    "gtm",
+    "google tag manager",
+    "gulp google tag manager",
+    "gulp gtm"
+  ],
+  "bugs": {
+    "url": "https://github.com/yurayarosh/gulp-gtm-plugin/issues"
+  },
   "prettier": {
     "printWidth": 100,
     "trailingComma": "es5",
