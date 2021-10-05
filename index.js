@@ -15,6 +15,7 @@ class GTMPlugin {
       dataLayerName: 'dataLayer',
       auth: '',
       preview: '',
+      cookiesWin: '', // 'x'
     }
 
     this.options = { ...defaultOptions, ...options }
@@ -42,7 +43,9 @@ class GTMPlugin {
         <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${this.options.id}${
         this.options.auth ? `&gtm_auth=${this.options.auth}` : ''
-      }${this.options.preview ? `&gtm_preview=${this.options.preview}` : ''}&gtm_cookies_win=x"
+      }${this.options.preview ? `&gtm_preview=${this.options.preview}` : ''}${
+        this.options.cookiesWin ? `&gtm_cookies_win=${this.options.cookiesWin}` : ''
+      }"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
       `,
