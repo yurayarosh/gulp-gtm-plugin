@@ -1,6 +1,6 @@
 {
   "name": "gulp-gtm-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add Google Tag Manager support to your web project.",
   "main": "index.js",
   "author": "yurayarosh <yura12323@gmail.com>",
