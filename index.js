@@ -33,9 +33,9 @@ class GTMPlugin {
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl+ '${
           this.options.auth ? `&gtm_auth=${this.options.auth}` : ''
-        }${
-        this.options.preview ? `&gtm_preview=${this.options.preview}` : ''
-      }&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);
+        }${this.options.preview ? `&gtm_preview=${this.options.preview}` : ''}${
+        this.options.cookiesWin ? `&gtm_cookies_win=${this.options.cookiesWin}` : ''
+      }';f.parentNode.insertBefore(j,f);
         })(window,document,'script','${this.options.dataLayerName}','${this.options.id}');</script>
         <!-- End Google Tag Manager -->
       `,
