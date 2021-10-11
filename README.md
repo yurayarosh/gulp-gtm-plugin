@@ -38,5 +38,6 @@ gtm({
   dataLayerName: 'dataLayer',
   auth: '',
   preview: '',
+  cookiesWin: '', // Add `gtm_cookies_win` query to url (cookiesWin: 'x' => gtm_cookies_win=x)
 })
 ```
